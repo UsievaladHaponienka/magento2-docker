@@ -46,6 +46,7 @@ services:
     volumes:
       - ./magento:/var/www/magento
       - ./volume/.composer:/var/www/.composer
+      - /var/www:/var/www/upload
     env_file:
       - ./composer.env
       - ./.env
