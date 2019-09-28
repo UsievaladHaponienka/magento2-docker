@@ -1,7 +1,6 @@
 .idea
 /.env
 /composer.env
-/magento
 !/magento/.gitkeep
 /nginx/etc/certs/
 !/nginx/etc/certs/.gitkeep

@@ -1,0 +1,3 @@
+[submodule "magento"]
+	path = magento
+	url = git@github.com:zhartaunik/magento2-miladycatalogs.git
