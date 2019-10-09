@@ -107,3 +107,11 @@ services:
       - 4444:4444
     extra_hosts:
       - "${DOMAIN_NAME}:${LOCAL_HOST_IP}"
+
+  sftp:
+    image: atmoz/sftp
+    volumes:
+      - /var/www:/var/www/upload
+    ports:
+      - "2222:22"
+    command: ${SFTP_USER}:${SFTP_PASSWORD}:1000
